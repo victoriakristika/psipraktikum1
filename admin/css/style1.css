@@ -1,0 +1,174 @@
+/* Add a black background color to the top navigation */
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  background-image: url(../hotel2.jpg);
+  color: white;
+  font-size: 20px;
+}
+.head {
+    font-family: "algerian";
+}
+body
+{
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px;
+  margin-bottom: 0px;
+  height: auto;
+}
+.content
+{
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 100%;
+  margin-bottom: 0px;
+  text-align: center;
+}
+.panel {
+    margin-bottom: 0px;
+    margin-top: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    padding: 50px;
+}
+.panel-blue {
+    border-color: #337ab7;
+}
+.panel-blue>.panel-atas {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #337ab7;
+}
+.panel-atas {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.panel-isi {
+    padding: 15px;
+}
+
+.content-banner
+{
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 100%;
+  font-size: 30px;
+  text-align: center;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: blue;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  text-align: center;
+}
+
+th, td {
+  border: 1px solid black;
+    padding: 8px;
+}
+tr:first-child th:first-child {
+  border-top-left-radius: 8px;
+}
+tr:first-child th:last-child {
+  border-top-right-radius: 8px;
+}
+tr:last-child td:first-child {
+  border-bottom-left-radius:8px;
+}
+tr:last-child td:last-child {
+  border-bottom-right-radius:8px;
+}
+tr:nth-child(even){background-color: #f2f2f2}
+
+tr:hover {background-color: #c6f5de}
+th {
+    background-color: #4CAF50;
+    color: white;
+}
